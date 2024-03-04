@@ -156,9 +156,15 @@ header .mobile {
         text-align: center;
     }
 
-    header li {
-        margin: 064px;
-    }
+    header .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+    nav {
+        display: none;
+      }
 
     header .mobile img {
         height: 48.5px;
